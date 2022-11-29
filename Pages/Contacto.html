@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcur icon" href="/2.png" type="image/x-icon" />
+    <link rel="shortcur icon" href="/Img/2.png" type="image/x-icon" />
     <link rel="stylesheet" href="/Css/Styles.css" />
+    
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
@@ -15,44 +16,19 @@
   <body>
     <header>
       <div class="container">
-        <div class="left">
-          <ul class="nav__list">
-            <div class="row">
-              <li class="nav__item">
-                <a class="nav__link" href="/Pages/Perfil.html">
-                  <img
-                    src="/iconopersona.png"
-                    alt="icono persona perfil"
-                    width="20"
-                    height="20"
-                  />
-                </a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="/Pages/Carrito.html">
-                  <img
-                    src="/iconocarrito.png"
-                    alt="icono carrito compra"
-                    width="20"
-                    height="20"
-                  />
-                </a>
-              </li>
-            </div>
-          </ul>
-        </div>
-      </div>
-      <div class="container">
         <div class="row">
-          <a href="/2.png" alt="Logo de la empresa" class="logo"></a>
+          <div class="logo-estilo">
+             <a href="/Img/2.png" alt="Logo de la empresa" class="logo"></a>
           <img
-            src="/2.png"
+            src="/Img/2.png"
             alt="Logo de la empresa"
             width="50"
             height="50"
             aligh-item="right"
           />
           <h2>Tropical</h2>
+          </div>
+         
           <div class="container">
            <nav class="nav">
               <div class="left">
@@ -67,7 +43,7 @@
                   </li>
                   <li class="nav__item">
                     <a class="nav__link"  href="/Pages/Comocomprar.html"
-                      >Como comprar</a
+                      >Como Comprar</a
                     >
                   </li>
                   <li class="nav__item">
@@ -75,22 +51,54 @@
                       >Contacto</a
                     >
                   </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="/Pages/Perfil.html" >
+                      <img
+                        src="/Img/iconopersona.png"
+                        alt="icono persona perfil"
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="/Pages/Carrito.html">
+                      <img
+                        src="/Img/iconocarrito.png"
+                        alt="icono carrito compra"
+                        width="20"
+                        height="20"
+                      />
+                    </a>
+                  </li>
                 </ul>
               </div>
+
             </nav>
           </div>
-            
           </div>
-        </div>
+        </div>  
       </div>
     </header>
-    <h1>Contacto</h1>
-    <form action="">
-      <fieldset>
-        <legend>Contactanos</legend>
+    <br>
+    <h1 class="display-3">Contacto</h1>
+    <br>
+    <div class="container">
+      
+      <div class="row">
+        <div class="subtitle">
+          <h5>Los sabores mas frescos a tu alcance</h5>
+        </div>
+        
+      </div>
+      <section class="contact">
+          <form action="" >
+      <div>
+        <h3>Contactanos</h3>
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" id="nombre" />
         <br />
+        
         <label for="apellido">Apellido</label>
         <input type="text" name="apellido" id="apellido" />
         <br />
@@ -117,44 +125,70 @@
           <input type="submit" value="Enviar formulario" />
           <input type="reset" value="Borrar formulario" />
         </div>
-      </fieldset>
+      </div>
     </form>
+      </section>
+       
+      </div>
+    </div>
+    <br>
+<br>
+    
+   
     <footer class="footer">
       <div class="footer-sm">
         <div class="container">
           <div class="row">
+            <div class="logo-estilo">
+               <a href="/Img/2.png" alt="Logo de la empresa" class="logo"></a>
+            <img
+              src="/Img/2.png"
+              alt="Logo de la empresa"
+              width="50"
+              height="50"
+              aligh-item="right"
+            />
+            <h2>Tropical</h2>
+        </div>
+        <div class="container">
+          <div class="row">
             <div class="footer-sm__icons">
               <div class="col">Buscanos en las redes</div>
-              <div class="col">
+            
                 <div class="col">
                   <img
-                    src="/instagram.png"
+                    src="/Img/instagram.png"
                     alt="Logo instagram"
                     width="30"
                     height="30"
+                    
                   />
+                  <h5 class="right">/Instagram</h5>
                 </div>
                 <div>
                   <img
-                    src="/facebook.png"
+                    src="/Img/facebook.png"
                     alt="Logo facebook"
                     width="30"
                     height="30"
                   />
+                  <h5 class="right">/Facebook</h5>
                 </div>
                 <div>
                   <img
-                    src="/whatsapp.png"
+                    src="/Img/whatsapp.png"
                     alt="Logo whatsapp"
                     width="30"
                     height="30"
                   />
+                  <h5 class="right">/Whatsapp</h5>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <br>
       <div class="footer-bottom">
         <div class="container">
           <div class="footer-bottom__copyright">

@@ -4,27 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcur icon" href="/2.png" type="image/x-icon" />
+    <link rel="shortcur icon" href="/Img/2.png" type="image/x-icon" />
     <link rel="stylesheet" href="Css/Styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    
+
     <title>Inicio</title>
   </head>
   <body>
     <header>
       <div class="container">
         <div class="row">
-          <a href="2.png" alt="Logo de la empresa" class="logo"></a>
+          <div class="logo-estilo">
+             <a href="/Img/2.png" alt="Logo de la empresa" class="logo"></a>
           <img
-            src="2.png"
+            src="/Img/2.png"
             alt="Logo de la empresa"
             width="50"
             height="50"
             aligh-item="right"
           />
           <h2>Tropical</h2>
+          </div>
+         
           <div class="container">
            <nav class="nav">
               <div class="left">
@@ -48,9 +53,9 @@
                     >
                   </li>
                   <li class="nav__item">
-                    <a class="nav__link" href="/Pages/Perfil.html">
+                    <a class="nav__link" href="/Pages/Perfil.html" >
                       <img
-                        src="/iconopersona.png"
+                        src="/Img/iconopersona.png"
                         alt="icono persona perfil"
                         width="20"
                         height="20"
@@ -60,7 +65,7 @@
                   <li class="nav__item">
                     <a class="nav__link" href="/Pages/Carrito.html">
                       <img
-                        src="/iconocarrito.png"
+                        src="/Img/iconocarrito.png"
                         alt="icono carrito compra"
                         width="20"
                         height="20"
@@ -72,15 +77,12 @@
 
             </nav>
           </div>
-            
           </div>
         </div>  
-        </div>
-
-      </div>
     </header>
     <main>
       <section id="intro-section">
+  
         <div class="container">
           <div class="row">
             <div class="col">
@@ -90,45 +92,61 @@
         </div>
         <br>
       </section>
-      <center><img class="img-box" src="photo1.jpeg" /></center>
       <br>
-
+      <div class="slider">
+        <ul>
+            <li>
+                <img src="/Img/photo1.jpeg">
+            </li>
+            <li>
+                <img src="/Img/photo2.jpeg">
+            </li>
+            <li>
+                <img src="/Img/photo3.jpeg">
+            </li>
+        </ul>
+    </div>
+    <br>
+      <section>
+    
+        <img class="img-box" src="/Img/photo1.jpeg" alt="imagen portada" />
+      </section>
+      <br>
       <section>
         <div class="container">
-          <h3 class="h3">"Frase de la pagina"</h3>
+          <h3 class="h3">"Si la vida no te sonríe, agrégale más frutas."</h3>
         <br>
         </div> 
         <div>
-          <h4 class="subtitle">Nosotros</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            est esse ut fuga aperiam, maxime ducimus qui autem, aut optio
-            incidunt magni corporis cumque architecto! Harum repudiandae et
-            temporibus veniam!
+          <h4 class="subtitle" style="color: rgb(213, 118, 45);">Nosotros</h4>
+          <br>
+          <p class="subtitle" style="font-size: 13px;">
+            A nivel empresa, innovar siempre. A nivel servicio, siempre cumplimos. A nivel espacio, no ofrecemos productos. Ofrecemos una experiencia. La experiencia Tropical.
+Si Tropical fuese una persona sería respetuosa, amable, detallista, sensible, tecnológica y, por sobre todo, buena gente.
+No tratamos de Usted y nuestra primera y última palabra es: una sonrisa.
           </p>
           
         </div>
       </section>
       <br>
-      <section>
-         
+      <section>  
         <div>
-          <h4 class="subtitle">Nosotros por dos</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            est esse ut fuga aperiam, maxime ducimus qui autem, aut optio
-            incidunt magni corporis cumque architecto! Harum repudiandae et
-            temporibus veniam!
-          </p>
-          
+          <h4 class="subtitle" style="color:rgb(213, 118, 45) ;">Nuestros valores</h4>
+          <br>
+          <p class="subtitle" style="font-size: 13px;">
+            Tropical es una marca joven, dinámica y desafiante. Joven porque vendemos alegrías, provocamos alegrías. Todo lo que vendemos genera una sonrisa.
+            Dinámica porque estamos en movimiento constante. e ensucia, limpiamos. Se vende, reponemos. Se lanza en el mercado, lo tenemos. Lo pedís, te lo llevamos. Sos moderno, tenemos web multiplataforma, mercado electrónico y lo último en tecnología.
+            Desafiante porque sacamos el pecho frente ante cualquier rival y cualquier adversidad. Desafiante porque nos gusta ganar. Y ganamos, entre las cosas que más se valoran, porque nos desafiamos a tener el mejor precio.
+          </p>   
         </div>
       </section>
+      
       <br>
       <section id="download">
         <div class="container">
           <div class="row">
             <div class="col">
-              <h3 class="download__title">Descargas</h3>
+              <h3 class="download__title">Descargas:</h3>
             </div>
           </div>
         </div>
@@ -137,7 +155,7 @@
             <div class="col">
               <div class="download__logo-box">
                 <img
-                  src="Appstore.png"
+                  src="/Img/Appstore.png"
                   alt="Logo descarga app store"
                   width="50"
                   height="50"
@@ -146,7 +164,7 @@
               <div class="col">
                 <div class="download__logo-box">
                   <img
-                    src="Googleplay.png"
+                    src="/Img/Googleplay.png"
                     alt="Logo descarga play store"
                     width="50"
                     height="50"
@@ -162,31 +180,48 @@
       <div class="footer-sm">
         <div class="container">
           <div class="row">
+            <div class="logo-estilo">
+               <a href="/Img/2.png" alt="Logo de la empresa" class="logo"></a>
+            <img
+              src="/Img/2.png"
+              alt="Logo de la empresa"
+              width="50"
+              height="50"
+              aligh-item="right"
+            />
+            <h2>Tropical</h2>
+        </div>
+        <div class="container">
+          <div class="row">
             <div class="footer-sm__icons">
               <div class="col">Buscanos en las redes</div>
                 <div class="col">
                   <img
-                    src="/instagram.png"
+                    src="/Img/instagram.png"
                     alt="Logo instagram"
                     width="30"
                     height="30"
+                    
                   />
+                  <h5 class="right">/Instagram</h5>
                 </div>
                 <div>
                   <img
-                    src="/facebook.png"
+                    src="/Img/facebook.png"
                     alt="Logo facebook"
                     width="30"
                     height="30"
                   />
+                  <h5 class="right">/Facebook</h5>
                 </div>
                 <div>
                   <img
-                    src="/whatsapp.png"
+                    src="/Img/whatsapp.png"
                     alt="Logo whatsapp"
                     width="30"
                     height="30"
                   />
+                  <h5 class="right">/Whatsapp</h5>
                 </div>
               </div>
             </div>
